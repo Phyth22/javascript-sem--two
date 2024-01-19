@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb</title>
+</head>
+<body>
+    <button onclick="document.getElementById('myImage').src='./images/bulb onnn.jpg'">Turn on the light</button>
+
+    <img id="myImage" src="./images/bulb onnn.jpg" style="width:100px">
+    
+    <button onclick="document.getElementById('myImage').src='images/bulb offff.jpg'">Turn off the light</button>
+
+    <p id="text">My first assignment</p>
+    <button type="button" onclick="document.getElementById('text') .style.fontSize='50px',back">tap on me</button>
+    
+
+    <p>click the button below for a suprise</p>
+
+
+<button onclick="buttonOne()">tap on me</button>
+
+<div id="myTestOne">
+This is my suprise
+</div>
+
+
+<script>
+function buttonOne() {
+  var x = document.getElementById("myTestOne");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<style>
+    
+</style>
+
+
+
+    
+</body>
+</html>
